@@ -1,0 +1,30 @@
+{
+  "bugs": {
+    "url": "https://github.com/jest-asterisk/jest-transformer-esbuild/issues"
+  },
+  "description": "A Jest transformer using esbuild",
+  "files": [
+    "index.js",
+    "index.js.map"
+  ],
+  "homepage": "https://github.com/jest-asterisk/jest-transformer-esbuild#readme",
+  "keywords": [
+    "jest",
+    "esbuild"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@jest-asterisk/jest-transformer-esbuild",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jest-asterisk/jest-transformer-esbuild.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "node build.mjs"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "esbuild": "^0.15.1"
+  }
+}
